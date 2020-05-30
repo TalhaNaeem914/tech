@@ -1,0 +1,403 @@
+header{
+	background: url(tred.jpg);
+	height: 100vh;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+}
+.hea1{
+	background: url(about-us.jpg);
+	height: 90vh;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+
+}
+.hea2{
+	background: url(contactusheader.jpg);
+	height: 90vh;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+}
+.hea3{
+	background: url(photo-1507643179773-3e975d7ac515.jpeg);
+	height: 90vh;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+}
+.hea4{
+	background: url(39254789_m.jpg);
+	height: 100vh;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+}
+.hea5{
+	background: url(2018ACE-1045.jpeg);
+	height: 90vh;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+}
+.hea6{
+	background: url(photo-1517694712202-14dd9538aa97.jpeg);
+	height: 100vh;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+}
+.hea7{
+	background: url(39254789_m.jpg);
+	height: 80vh;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+}
+ul li a{
+	color: white !important;
+	margin-left: 30px;
+	font-size: 18px;
+}
+ul li >a:hover{
+	color: aqua;
+	background-color: transparent !important;
+	transition: .2s;
+	border-bottom: 2px solid aqua;
+	cursor: pointer;
+	
+	
+}
+.he{
+	color: white;
+	margin-top: 20%;
+	font-size: 60px;
+
+}
+.bb{
+	border: 2px solid green !important;
+	color: white !important;
+	margin-left: 40%;
+	font-size: 20px !important;
+	
+
+}
+.bb:hover{
+	background-color: green;
+	transition: 1s all linear;
+
+}
+.abou{
+	color: #0078D7;
+	margin-top: 5%;
+
+}
+.tech-int{
+	font-size: 17px;
+	word-spacing: 2px;
+	text-indent: 1px;
+	margin-top: 1%;
+}
+.desi{
+	font-weight: bold;
+	margin-top: 50px;
+}
+
+.box{
+	border: 2px solid transparent;
+	width: 400px;
+	position: relative;
+	overflow: hidden;
+
+}
+.box img{
+	width: 100%;
+	height: auto;
+}
+.content{
+	background-color: rgb(0,0,0,0.8);
+	position: absolute;
+	top: -100%;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	color: #fff;
+	padding: 30px;
+	box-sizing: border-box;
+	transition: all 0.9s;
+
+}
+.box:hover .content{
+	top: 0;
+}
+.content p{
+	border-top: 1px solid white;
+	border-bottom: 1px solid white;
+	padding: 20px 0;
+}
+.butt{
+	background-color: blue;
+	color: white;
+	transition: 1s;
+}
+.butt:hover{
+	transform: scale(1.2);
+	color: black;
+	background-color: yellow;
+	transform: translateY(-8px);
+    
+}
+.joi{
+	background-color: #0166BF;
+	height: 100%;
+	padding: 30px;
+}
+#call{
+	margin-top:30px;
+	background-color: #0166BF;
+	color: white;
+	border: 2px solid white; 
+	transition: 1s;
+	width: 150px;
+}
+#call:hover{
+	background-color: white;
+	color: #0166BF;
+	transform: scale(1.2);
+
+}
+ .item h4 {
+      font-size: 19px;
+      line-height: 1.375em;
+      font-weight: 400;
+      font-style: italic;
+      margin: 70px 0;
+     
+
+  }
+  .item span {
+      font-style: normal;
+  }
+  .happyclinets{
+  	width: 100%;
+  	height: 100;
+  	padding: 80px 0;
+
+  }
+  .box2{
+  	text-align: center;
+  	
+  	box-shadow: 0 5px 10px 0 rgba(0,0,0,0.3);
+  	
+  	transition: 0.3s ease;
+  }
+  .box2:hover{
+  	background: #16c9f6;
+  }
+  .box2:hover p{
+  	color: white;
+  }
+  .carousel-indicators{
+  	position: absolute;
+  	right: 0;
+  	bottom: -60px !important
+  }
+  .carousel-indicators li{
+  	ba
+  }
+  .box2 a{
+  	position: relative;
+  }
+  .box2 a img{
+  	width: 100px;
+  	height: 100px;
+  	border-radius: 50%;
+  	margin-top: 20px;
+  }
+  .box2 h1{
+  	font-size: 18px;
+  	font-weight: 700;
+  	color: #000;
+  	margin-bottom: 13px;
+  }
+  .box2 h2{
+  	font-size: 13px;
+  	font-weight: 40px;
+  	color: #666666;
+  	margin-bottom: 20px;
+  }.carousel-control.right, .carousel-control.left {
+      background-image: none;
+      
+
+  }
+
+  .Started-pro{
+  	background-color: #01C2E5;
+  	color: white;
+  	margin-top: 40px;
+  	padding-bottom: 30px;
+  	padding-top: 5px;
+  }
+  #butn{
+  	background-color:#01C2E5;
+  	color: white;
+  	border: 2px solid white;
+  	width: 150px;
+  	padding-top: 10px;
+  	padding-bottom: 10px; 
+  	transition: 1s;
+  }
+  #butn:hover{
+  	background-color: white;
+  	color: black;
+  	transform: scale(1.2);
+
+  }
+
+  footer{
+  	background-color: #000000;
+  	color: white;
+  	padding-bottom: 30px;
+  }
+  .foo{
+  	margin-top: 50px;
+  	margin-left: 100px;
+  }
+  #f-la{
+  	margin-top: 50px;
+  }
+  .lnav li a{
+	color: white;
+	font-size: 20px;
+	background-color: transparent;
+	transition: 0.5s;
+	text-decoration: none;
+}
+.lnav li a:hover{
+	margin-left: 20px;
+	color: white;
+	font-size: 20px;
+	background-color: transparent;
+	border-bottom:  2px solid black;
+
+
+	
+}
+.par{
+	font-size: 20px;
+	margin-left: 7%;
+	color: grey;
+	text-align: justify;
+
+
+}
+#he{
+	margin-left: 7%;
+	font-weight: bold;
+}
+.cont{
+	color: #0078D7;
+	margin-top: 100px;
+	margin-left: 50px;
+
+}
+.contact-p{
+	color: black;
+	font-weight: bold;
+	font-size: 16px;
+}
+.gallery img{
+	transition: 1s;
+	filter: grayscale(50%);
+
+}
+.gallery img:hover{
+	transform: scale(1.2);
+	filter: grayscale(0);
+}
+#cc{
+	transition: 1.5s;
+}	
+#cc:hover{
+	transform: translateY(-20px);
+
+}.butt{
+	background-color: blue;
+	color: white;
+	transition: 1s;
+}
+.butt:hover{
+	transform: scale(1.2);
+	color: black;
+	background-color: yellow;
+	transform: translateY(-8px);
+    
+
+}#app{
+	background-color: #263150; 
+	color: white;
+	border-radius: 4px;
+}
+#app ul li a:hover{
+   color: white;
+   text-decoration: none;
+   border-bottom: 1px solid #263150; 
+}
+.co{
+  	background-color: #FAFAFA;
+  	color: black;
+  	padding-bottom: 20px;
+
+  }
+  .para-c{
+  	font-size: 18px;
+  }
+  #bol{
+  	font-weight: bold;
+  }
+  .dropdown-menu{
+  	color: black !important;
+  	background-color: white;
+	opacity: .8;
+  }
+  .dropdown-item{
+color: black !important;
+  }
+
+  #drop-hover:hover{
+	color: #01C2E5 !important;
+	border: 0px;
+	border-radius: 0px;
+	background-color: white !important;
+}
+ #drop-hover{
+ 	border-top: 1px solid black;
+ 	margin-left: -1px;
+
+ }
+ #cr:hover{
+ 	margin-left: -1px;
+color: #01C2E5 !important;
+ }
+ #cr{
+
+ 	margin-left: -1px;
+
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
